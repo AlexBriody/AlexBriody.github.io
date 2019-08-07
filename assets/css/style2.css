@@ -41,7 +41,7 @@ a:visited {
     padding-top: 1px 0;
     background-color: #63A8A4;
     position: absolute;
-    left: 240px;
+    left: 24.7%;
     top: 0px;
 }
 
@@ -107,4 +107,7 @@ p {
     border-top: 8px solid #63A8A4;
     background-color: #616161;
     margin-top: 450px;
+    position: absolute;
+    left: 0px;
+}
  

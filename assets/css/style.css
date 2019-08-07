@@ -41,7 +41,7 @@ a:visited {
     padding-top: 1px 0;
     background-color: #63A8A4;
     position: absolute;
-    left: 240px;
+    left: 24.7%;
     top: 0px;
 }
 
@@ -77,7 +77,6 @@ p {
 }
 
 #footer {
-    overflow: auto;
     clear: both;
     font-size: 12px;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,7 +87,7 @@ p {
     padding-top: 40px;
     border-top: 8px solid #63A8A4;
     background-color: #616161;
-    margin-top: 225px;
     position: absolute;
     left: 0px; 
+    bottom: 0px;
 }
