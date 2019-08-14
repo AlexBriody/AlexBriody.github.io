@@ -46,7 +46,7 @@ a:visited {
 }
 
 #portfolio {
-    height: 710px;
+    height: 700px;
     width: 960px;
     color: #63A8A4;
     font-size: 20px;
@@ -56,6 +56,7 @@ a:visited {
     top: 120px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 200px;
     padding-left: 30px;
     padding-right: 30px; 
 }
@@ -87,7 +88,7 @@ img {
     border-top: 8px solid #63A8A4;
     background-color: #616161;
     margin-top: 150px;
-    position: absolute;
+    position: fixed;
     left: 0px; 
     bottom: 0px;
 }

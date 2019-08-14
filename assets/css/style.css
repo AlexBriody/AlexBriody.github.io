@@ -87,7 +87,7 @@ p {
     padding-top: 40px;
     border-top: 8px solid #63A8A4;
     background-color: #616161;
-    position: absolute;
+    position: fixed;
     left: 0px; 
     bottom: 0px;
 }
