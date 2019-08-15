@@ -48,7 +48,6 @@ a:visited {
     height: 85px;
     width: auto;
     padding-top: 30px;
-    
     background-color: white;
     border-bottom: 1px solid #cccc;
     float: right;
@@ -60,7 +59,6 @@ a:visited {
     color: white;
     text-align: center;
     font-size:20px;
-    padding-top: 1px 0;
     background-color: #63A8A4;
     float: left;
 }
