@@ -176,6 +176,18 @@ img {
     top: 607px;
 }
 
+#captionGiftastic {
+    height: 42px;
+    width: 220px;
+    color: white;
+    text-align: center;
+    font-size:11px;
+    padding-top: 1px 0;
+    background-color: #63A8A4;
+    position: absolute;
+    left: 290px;
+    top: 607px;
+}
 
 @media screen and (max-width: 980px) {
     
@@ -228,6 +240,11 @@ img {
     #captionRockPaperScissors {
         left: 75px;
         top: 636px;
+    }
+
+    #captionGiftastic {
+        left: 372px;
+        top: 432px;
     }
 
 }
@@ -300,6 +317,15 @@ img {
         height: 45px;
         width: 260px;
         left: 25px;
+        top: 684px;
+    }
+
+
+    #captionGiftastic {
+        font-size: 12px;
+        height: 45px;
+        width: 260px;
+        left: 310px;
         top: 684px;
     }
 
@@ -377,5 +403,12 @@ img {
             height: 50px;
             left: 25px;
             top: 1315px;
+        }
+
+        #captionGiftastic {
+            width: 336px;
+            height: 50px;
+            left: 25px;
+            top: 1575px;
         }
     }

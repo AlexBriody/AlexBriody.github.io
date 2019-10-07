@@ -33,53 +33,103 @@
 
             <hr style="border: 1.5px solid #cccc" />
 
-            <div>
-                <img src="assets/images/hangman1.jpg">
+            <div id="crystalVisual">
+                <img src="assets/images/crystal.jpg">
                 <div id="captionHangman">
-                    <h1>Hangman</h1>
+                    <h1>Crystal Game</h1>
                 </div>
             </div>
 
-            <div>
-                <img src="assets/images/rpg1.jpg">
+            <div id="weatherlyVisual">
+                <img src="assets/images/food_cocktails.jpg">
                 <div id="captionRPG">
-                    <h1>RPG Game</h1>
+                    <h1>wEATherly</h1>
                 </div>
             </div>
 
             <div class="clearfix"></div>
 
-            <div>
+            <div id="triviaVisual">
                 <img src="assets/images/trivia1.jpg">
                 <div id="captionTrivia">
                     <h1>Trivia Game</h1>
                 </div>
             </div>
 
-            <div>
+            <div id="trainVisual">
                 <img src="assets/images/infowidget1.png">
                 <div id="captionWidget">
-                    <h1>Penn Info Widget</h1>
+                    <h1>Train Schedule</h1>
                 </div>
             </div>
 
             <div class="clearfix"></div>
 
-            <div>
-                <img src="assets/images/rockpaperscissor1.jpg">
+            <div id="psychicVisual">
+                <img src="assets/images/psychic.jpg">
                 <div id="captionRockPaperScissors">
-                    <h1>Rock Paper Scissors</h1>
+                    <h1>Psychic Game</h1>
+                </div>
+            </div>
+
+
+            <div id="gifVisual">
+                <img src="assets/images/photos.jpg">
+                <div id="captionGiftastic">
+                    <h1>Find Gifs!</h1>
                 </div>
             </div>
         </div>
 
-        <br>
-        <br>
-        <section>
-            <div id="footer">
-                Copyright &copy;
-            </div>
-        </section>
+
+    </section>
+
+    <br>
+    <br>
+    <section>
+        <div id="footer">
+            Copyright &copy;
+        </div>
+    </section>
+
+
+    <script src=" https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"> </script>
+    <script type="text/javascript">
+
+        $("#crystalVisual").on("click", function () {
+
+            window.location.href = 'https://alexbriody.github.io/Unit-4-Game/'
+        });
+
+        $("#weatherlyVisual").on("click", function () {
+
+            window.location.href = 'https://alexbriody.github.io/Weatherly/'
+        });
+
+        $("#triviaVisual").on("click", function () {
+
+            window.location.href = 'https://alexbriody.github.io/TriviaGame/'
+        });
+
+        $("#trainVisual").on("click", function () {
+
+            window.location.href = 'https://alexbriody.github.io/TrainSchedule/'
+        });
+
+        $("#psychicVisual").on("click", function () {
+
+            window.location.href = 'https://alexbriody.github.io/Psychic-Game/'
+        });
+
+        $("#gifVisual").on("click", function () {
+
+        window.location.href = 'https://alexbriody.github.io/Giftastic/'
+        });
+
+    </script>
+
+
+
 
 </body>
 
