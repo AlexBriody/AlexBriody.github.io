@@ -166,7 +166,7 @@
 
         <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center text-center">
           <div class="card text-center" style="width: auto; height: auto;">
-            <img class="card-img-top" src="images/VR.png" alt="Card image cap">
+            <img class="card-img-top" src="images/bamazon.jpg" alt="Card image cap">
             <div class="card-body">
               <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px" id="bamazonButton" >Bamazon</a>
             </div>
@@ -177,18 +177,70 @@
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center text-center">
           <div class="card text-center" style="width: auto; height: auto;">
-            <img class="card-img-top" src="images/AI.jpg" alt="Card image cap">
+            <img class="card-img-top" src="images/liri.jpg" alt="Card image cap">
             <div class="card-body">
-              <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px">Artifical Intelligence</a>
+              <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px" id="liriButton">LIRI</a>
             </div>
             <div class="card-body">
-              <a href="#" class="btn btn-secondary style=" padding-top: 5px; margin-top: 2px"  id="trainCode">Github</a>
+              <a href="#" class="btn btn-secondary style=" padding-top: 5px; margin-top: 2px"  id="liriCode">Github</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="row">
+
+
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center text-center">
+          <div class="card text-center" style="width: auto; height: auto;">
+            <img class="card-img-top" src="images/friendfinder.jpg" alt="Card image cap">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px" id="friendfinderButton">Friend Finder</a>
+            </div>
+            <div class="card-body">
+                <a href="#" class="btn btn-secondary style=" padding-top: 5px; margin-top: 2px" id="friendfinderCode">Github</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center text-center">
+          <div class="card text-center" style="width: auto; height: auto;">
+            <img class="card-img-top" src="images/burger.jpg" alt="Card image cap">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px"  id="burgerButton">Burger</a>
+            </div>
+            <div class="card-body">
+                <a href="#" class="btn btn-secondary style=" padding-top: 5px; margin-top: 2px"  id="burgerCode">Github</a>
+              </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center text-center">
+          <div class="card text-center" style="width: auto; height: auto;">
+            <img class="card-img-top" src="images/potluck.jpg" alt="Card image cap">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px" id="potluckButton" >Potluck Party Planner</a>
+            </div>
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary style=" padding-top: 5px; margin-top: 2px"  id="potluckCode">Github</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 d-flex justify-content-center text-center">
+          <div class="card text-center" style="width: auto; height: auto;">
+            <img class="card-img-top" src="images/futureproject.jpg" alt="Card image cap">
+            <div class="card-body">
+              <a href="#" class="btn btn-primary style=" padding-top: 5px; margin-top: 2px" id="Button">Future Project</a>
+            </div>
+            <div class="card-body">
+              <a href="#" class="btn btn-secondary style=" padding-top: 5px; margin-top: 2px"  id="Code">Github</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
+    </div>
   </div>
 
   <br>
@@ -247,11 +299,11 @@
         $("#triviaButton").on("click", function () {
             window.location.href = 'https://alexbriody.github.io/TriviaGame/'
         });
-
+        
          $("#triviaCode").on("click", function () {
             window.location.href = 'https://github.com/AlexBriody/TriviaGame'
         });
-        
+
         $("#trainButton").on("click", function () {
             window.location.href = 'https://alexbriody.github.io/TrainSchedule/'
         });
@@ -262,6 +314,38 @@
 
         $("#bamazonCode").on("click", function () {
             window.location.href = 'https://github.com/AlexBriody/bamazon'
+        });
+
+        $("#liriButton").on("click", function () {
+            window.location.href = 'https://github.com/AlexBriody/liri-node-app/blob/master/README.md'
+        });
+
+        $("#liriCode").on("click", function () {
+            window.location.href = 'https://github.com/AlexBriody/liri-node-app'
+        });
+
+        $("#friendfinderButton").on("click", function () {
+            window.location.href = 'https://agile-harbor-04419.herokuapp.com/'
+        });
+
+        $("#friendfinderCode").on("click", function () {
+            window.location.href = 'https://github.com/AlexBriody/FriendFinder'
+        });
+
+        $("#burgerButton").on("click", function () {
+            window.location.href = 'https://quiet-scrubland-49566.herokuapp.com/'
+        });
+
+        $("#burgerCode").on("click", function () {
+            window.location.href = 'https://github.com/AlexBriody/burger'
+        });
+
+        $("#potluckButton").on("click", function () {
+            window.location.href = 'https://evening-stream-85249.herokuapp.com/'
+        });
+
+        $("#potluckCode").on("click", function () {
+            window.location.href = 'https://github.com/JulesDisch/Project-2'
         });
        
     </script>
