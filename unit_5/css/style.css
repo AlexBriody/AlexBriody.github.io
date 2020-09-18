@@ -7,8 +7,6 @@
 	margin: 0;
 }
 
-
-
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	border: 2px solid red;
@@ -71,6 +69,7 @@ main {
 	font-size: 8em;
 	color: #eeeeee;
 	line-height: 1.3;
+	letter-spacing: .04em;
 	border: 2px solid red;
 	margin-top: 150px;
 	font-family: 'Nanum Brush Script', cursive;
@@ -81,6 +80,7 @@ main {
 	font-size: 12em;
 	color: #eeeeee;
 	line-height: .5;
+	letter-spacing: .04em;
 	border: 2px solid red;
 	font-family: 'Nanum Brush Script', cursive;
 }
