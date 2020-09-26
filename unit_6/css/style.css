@@ -8,6 +8,14 @@
 	box-sizing: border-box;
 }
 
+a:hover {
+	color:blue;
+}
+button:hover {
+	color:blue;
+	background-color:#D4AF37;
+}
+
 body{
 	font-family: Arial, Helvetica, sans-serif;
 	border: 2px solid red;
