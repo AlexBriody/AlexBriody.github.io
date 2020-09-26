@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lexend+Peta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Lexend+Peta&family=Petit+Formal+Script&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	border: 2px solid red;
+	background-color: #eeeeee;
+	font-size: 16px;
+}
+
+header {
+	border: 2px solid red;
+	height: 100px;
+	background-color: #111111;
+}
+
+#logo {
+	font-size: 2.5em;
+	font-weight: 900;
+	font-family: 'Lexend Peta', sans-serif;
+	color: white;
+	line-height: 1.3;
+	padding: 10px;
+	color: #eeeeee;
+	float: left;
+}
+
+#logo h2 {
+	border: 2px solid red;
+}
+
+
+nav {
+	float: right;
+	border: 2px solid red;
+	margin-top: 30px;
+	align-items: center;
+}
+
+nav a {
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 1.13em;
+	font-weight: 100;
+	color: #eeeeee;
+	line-height: 1.3;
+	letter-spacing: .25em;
+}
+
+main {
+	border: 2px solid red;
+}
+
+#hero {
+	height: 800px;
+	border: 2px solid red;
+	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("../images/spa_background.jpg");
+	background-size: cover;
+}
+
+#first_caption{
+	text-align: center;
+	font-size: 8em;
+	color: #eeeeee;
+	line-height: 1.3;
+	letter-spacing: .04em;
+	border: 2px solid red;
+	margin-top: 150px;
+	font-family: 'Nanum Brush Script', cursive;
+}
+
+#second_caption {
+	text-align: center;
+	font-size: 12em;
+	color: #eeeeee;
+	line-height: .5;
+	letter-spacing: .04em;
+	border: 2px solid red;
+	font-family: 'Nanum Brush Script', cursive;
+}
+
+#third_caption {
+	font-family: 'Lexend Peta', sans-serif;
+	border: 2px solid red;
+	text-align: center;
+	font-size: 4.38em;
+	color: #eeeeee;
+	line-height: 1.3;
+	margin-top: 80px;
+}
+
+#fourth_caption {
+	border: 2px solid red;
+	text-align: center;
+	font-size: 3.13em;
+	font-family: 'Petit Formal Script', cursive;
+	color: #000000;
+	line-height: 1.3;
+	margin: 150px 40px;
+}
+
+#philo_caption {
+	font-size: 30px;
+	font-family: 'Petit Formal Script', cursive;
+	border: 2px solid red;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#philo_stmt {
+	font-size: 1.8em;
+	border: 2px solid red;
+	text-align: center;
+	margin-top: 20px;
+}
+
+#relax_aside{
+	border: 2px solid black;
+	width: 45%;
+	margin: 7em auto;
+}
+
+#relax_aside h1 {
+	font-size: 5em;
+	font-family: 'Nanum Brush Script', cursive;
+}
+
+#relax_aside h2 {
+	font-size: 1.88em;
+	font-family: 'Lexend Peta', sans-serif;
+	font-weight: 100;
+	letter-spacing: -.08em;
+}
+
+#relax_image {
+	height: 450px;
+	width: 450px;
+}
+
+#escape_aside{
+	border: 2px solid black;
+	width: 45%;
+	margin: 7em auto;
+}
+
+#escape_aside h1 {
+	font-size: 5em;
+	font-family: 'Nanum Brush Script', cursive;
+}
+
+#escape_aside h2 {
+	font-size: 1.88em;
+	font-family: 'Lexend Peta', sans-serif;
+	font-weight: 100;
+	letter-spacing: -.08em;
+}
+
+#escape_image {
+	height: 450px;
+	width: 450px;
+}
+
+#relaxleftcol{
+	float:left;
+	width: 50%;
+	border: 2px solid red;
+	padding: 1em 1em 3em 3em;
+}
+
+#relaxrightcol{
+	float:right;
+	width: 50%;
+	padding: 17em 3em 3em 1em;
+	border: 2px solid red;
+}
+
+#escapeleftcol{
+	float:left;
+	width: 50%;
+	padding: 17em 1em 3em 4em;
+	border: 2px solid red;
+}
+
+#escaperightcol{
+	float:right;
+	width: 50%;
+	border: 2px solid red;
+	padding: 1em 3em 3em 1em;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#massage_aside {
+	border: 2px solid red;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	background-image: url("../images/massage_aside.jpg");
+	background-size: cover;
+	margin: 0em auto;
+}
+
+#facials_aside {
+	border: 2px solid red;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	background-image: url("../images/facials_aside.jpg");
+	background-size: cover;
+	margin: 0em auto;
+}
+
+#bodywork_aside {
+	border: 2px solid red;
+	height: 400px;
+	width: 400px;
+	text-align: center;
+	background-image: url("../images/bodywork_aside.jpg");
+	background-size: cover;
+	margin: 0em auto;
+}
+
+button {
+	font-size: 1.88em;
+	text-align: center;
+	padding: 10px;
+	margin-top: 65%;
+	background-color: #ba8f59;
+	border-radius: 25px;
+}
+
+#massage_col{
+	float:left;
+	width: 33.33%;
+	border: 2px solid red;
+}
+
+#facials_col{
+	float:left;
+	width: 33.33%;
+	border: 2px solid red;
+}
+
+#bodywork_col{
+	float:left;
+	width: 33.33%;
+	border: 2px solid red;
+}
+
+#footer h2 {
+	font-size: 3.75em;
+	font-family: 'Lexend Peta', sans-serif;
+	color: #cccccc;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+#footer p {
+	font-size: 1.25em;
+	color: #cccccc;
+	display: inline-block;
+	
+}
+
+#footer {
+	height: 15vh;
+	border: 2px solid red;
+	background-image: url("../images/footer.jpg");
+	background-size: cover;
+	padding-left: 50px;
+	padding-top: 60px;
+	background-position: right top;
+	display: flex;
+	align-items:baseline;
+	margin-top: 200px;
+	clear: both;
+}
+
+
