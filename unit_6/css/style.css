@@ -185,15 +185,17 @@ main {
 #relaxrightcol{
 	float:right;
 	width: 50%;
-	padding: 17em 3em 3em 1em;
+	padding: 5em 3em 3em 1em;
 	border: 2px solid red;
+	line-height: 3em;
 }
 
 #escapeleftcol{
 	float:left;
 	width: 50%;
-	padding: 17em 1em 3em 4em;
+	padding: 5em 1em 3em 4em;
 	border: 2px solid red;
+	line-height: 3em;
 }
 
 #escaperightcol{
@@ -285,12 +287,12 @@ button {
 }
 
 #footer {
-	height: 15vh;
+	height: 25vh;
 	border: 2px solid red;
 	background-image: url("../images/footer.jpg");
 	background-size: cover;
 	padding-left: 50px;
-	padding-top: 60px;
+	padding-top: 110px;
 	background-position: right top;
 	display: flex;
 	align-items:baseline;
