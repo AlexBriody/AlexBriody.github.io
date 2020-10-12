@@ -469,11 +469,13 @@ button {
 	}
 
 	#philo_caption {
-		font-size: 1.3em;
+		font-size: 1em;
+		margin-top: 50px;
 	}
 
 	#philo_stmt {
 		font-size: 1.3em;
+
 	}
 	
 	#fourth_caption {
@@ -484,6 +486,7 @@ button {
 		background-image: none;
 		background-color: #1b1b23;
 		padding-left: 0px;
+		margin-top: 50px;
 	}
 
 	#logocop {
@@ -544,8 +547,16 @@ button {
 		font-size: 1.5em;
 	}
 
+	#relax_aside {
+		margin: 3em auto;
+	}
+
 	#first_caption {
 		font-size: 3em;
+	}
+
+	#escape_aside {
+		margin: 3em auto;
 	}
 
 	#second_caption {
@@ -556,5 +567,8 @@ button {
 		font-size: 2em;
 	}
 
+	#fourth_caption {
+		margin: 3em auto;
+	}
 }
 
