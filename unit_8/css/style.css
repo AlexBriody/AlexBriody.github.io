@@ -459,6 +459,9 @@ button {
 
 
 @media only screen and (max-width: 1000px) {
+	#logo {
+		font-size: 2em;
+	}
 
 	nav a {
 		display: block;
