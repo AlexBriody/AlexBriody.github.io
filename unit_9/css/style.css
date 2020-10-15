@@ -18,19 +18,19 @@ button:hover {
 
 body{
 	font-family: Arial, Helvetica, sans-serif;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	background-color: #eeeeee;
 	font-size: 16px;
 }
 
 header {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	height: 100px;
 	background-color: #111111;
 }
 
 #logo {
-	font-size: 2.5em;
+	font-size: 2em;
 	font-weight: 900;
 	font-family: 'Lexend Peta', sans-serif;
 	color: white;
@@ -41,20 +41,21 @@ header {
 }
 
 #logo h2 {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
+	margin-left: 40px;
 }
 
 
 nav {
 	float: right;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	margin-top: 30px;
 	align-items: center;
 }
 
 nav a {
 	text-decoration: none;
-	margin-right: 30px;
+	margin-right: 50px;
 	font-size: 1.13em;
 	font-weight: 100;
 	color: #eeeeee;
@@ -63,12 +64,13 @@ nav a {
 }
 
 main {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 #hero {
+	padding-top: 1px; /*connects header to body*/
 	height: 800px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1)), url("../images/spa_background.jpg");
 	background-size: cover;
 }
@@ -79,7 +81,7 @@ main {
 	color: #eeeeee;
 	line-height: 1.3;
 	letter-spacing: .04em;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	margin-top: 150px;
 	font-family: 'Nanum Brush Script', cursive;
 }
@@ -90,13 +92,13 @@ main {
 	color: #eeeeee;
 	line-height: .5;
 	letter-spacing: .04em;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	font-family: 'Nanum Brush Script', cursive;
 }
 
 #third_caption {
 	font-family: 'Lexend Peta', sans-serif;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	text-align: center;
 	font-size: 4.38em;
 	color: #eeeeee;
@@ -105,7 +107,7 @@ main {
 }
 
 #fourth_caption {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	text-align: center;
 	font-size: 3.13em;
 	font-family: 'Petit Formal Script', cursive;
@@ -117,23 +119,24 @@ main {
 #philo_caption {
 	font-size: 1.8em;
 	font-family: 'Petit Formal Script', cursive;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	text-align: center;
 	margin-top: 100px;
 }
 
 #philo_stmt {
 	font-size: 1.8em;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	text-align: center;
 	margin-top: 20px;
 }
 
 #relax_aside{
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	width: 50%;
 	margin: 7em auto;
 	max-width: 1200px; /*prevents over-stretching of image*/
+	min-width: 1000px; /*prevents over-squeezing of image*/
 }
 
 #relax_aside h1 {
@@ -155,10 +158,11 @@ main {
 }
 
 #escape_aside{
-	border: 2px solid black;
+	/*border: 2px solid black;*/
 	width: 50%;
 	margin: 7em auto;
 	max-width: 1200px; /*prevents over-stretching of image*/
+	min-width: 1000px; /*prevents over-squeezing of image*/
 }
 
 #escape_aside h1 {
@@ -182,32 +186,38 @@ main {
 #relaxleftcol{
 	float:left;
 	width: 50%;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	padding: 1em 1em 1em 1em;
 }
 
 #relaxrightcol{
 	float:left;
 	width: 50%;
-	max-width: 50%;
-	max-width: 500px; /*prevents over-stretching of image*/
+	max-width: 500px; /*prevents over-stretching of column when under 1000px width*/
 	padding: 5em 3em 3em 3em;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	line-height: 3em;
+}
+
+hr {
+	border: 2px solid #c0c0c0;
+	width: 40%;
+	margin: 0 auto;
 }
 
 #escapeleftcol{
 	float:left;
 	width: 50%;
+	max-width: 500px; /*prevents over-stretching of column when under 1000px width*/
 	padding: 5em 1em 3em 8em;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	line-height: 3em;
 }
 
 #escaperightcol{
 	float:right;
 	width: 50%;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	padding: 1em 1em 1em 1em;
 }
 
@@ -221,42 +231,40 @@ main {
 }
 
 #massage_aside {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	height: 400px;
 	width: 75%;
 	text-align: center;
 	background-image: url("../images/massage_aside.jpg");
 	background-size: cover;
 	margin: 0em 0em 0em auto;
-	min-width: 400px;
 }
 
 #facials_aside {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	height: 400px;
 	width: 75%;
 	text-align: center;
 	background-image: url("../images/facials_aside.jpg");
 	background-size: cover;
 	margin: 0em auto 0em auto;
-	min-width: 400px;
 }
 
 #bodywork_aside {
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	height: 400px;
 	width: 75%;
 	text-align: center;
 	background-image: url("../images/bodywork_aside.jpg");
 	background-size: cover;
 	margin: 0em auto 0em 0em;
-	min-width: 400px;
 }
 
 button {
 	font-size: 1.88em;
 	text-align: center;
 	padding: .5em 1em;
+	width: 200px;
 	background-color: #ba8f59;
 	border-radius: 25px;
 	position: relative;
@@ -265,21 +273,21 @@ button {
 }
 
 #massage_col{
-	float:left;
+	float: left;
 	width: 33.33%;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 #facials_col{
-	float:left;
+	float: left;
 	width: 33.33%;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 #bodywork_col{
-	float:left;
+	float: left;
 	width: 33.33%;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 }
 
 #footer h2 {
@@ -299,7 +307,7 @@ button {
 
 #footer {
 	height: 200px;
-	border: 2px solid red;
+	/*border: 2px solid red;*/
 	background-image: url("../images/footer.jpg");
 	background-size: cover;
 	padding-left: 50px;
@@ -311,59 +319,7 @@ button {
 	clear: both;
 }
 
-@media only screen and (max-width: 1922px) {
-	#relax_aside {
-		width: 55%;
-	}
-
-	#escape_aside {
-		width: 55%;
-	}
-}
-
-@media only screen and (max-width: 1642px) {
-	#relax_aside {
-		width: 60%;
-	}
-
-	#escape_aside {
-		width: 60%;
-	}
-}
-
-@media only screen and (max-width: 1615px) {
-	#relax_aside {
-		width: 70%;
-	}
-
-	#escape_aside {
-		width: 70%;
-	}
-}
-
-@media only screen and (max-width: 1516px) {
-	#first_caption {
-		font-size: 7em;
-	}
-
-	#second_caption {
-		font-size: 9em;
-	}
-
-	#philo_caption {
-		font-size: 1.4em;
-	}
-
-	#philo_stmt {
-		font-size: 1.4em;
-	}
-
-	#fourth_caption {
-		font-size: 2.5em;
-	}
-}
-
-@media only screen and (max-width: 1443px) {
+@media only screen and (max-width: 1600px) {
 	nav  {
 		float: none;
 	}
@@ -377,9 +333,11 @@ button {
 
 	header {
 		height: auto;
+		padding-bottom: 1px; /*connects header to body*/
 	}
 
 	#logo {
+		padding-top: 50px;
 		display: block;
 		float: none;
 		text-align: center;
@@ -390,38 +348,41 @@ button {
 	}
 
 	#second_caption {
-		font-size: 8em;
+		font-size: 7em;
+		margin: 0px 40px;
 	}
 
 	#third_caption {
 		font-size: 4em;
 	}
-}
 
-@media only screen and (max-width: 1249px) {
-	#relax_aside {
-		width: 80%;
-		}
+	#fourth_caption {
+		font-size: 2.5em;
+	}
 
-	#escape_aside {
-		width: 80%;
+	#philo_caption {
+		font-size: 1.4em;
+	}
+
+	#philo_stmt {
+		font-size: 1.4em;
 	}
 
 	#massage_col{
-		float:none;
-		width:75%;
+		float: none;
+		width: 75%;
 		margin: 3em auto;
 	}
 
 	#facials_col{
 		float:none;
-		width:75%;
+		width: 75%;
 		margin: 3em auto;
 	}
 
 	#bodywork_col{
-		float:none;
-		width:75%;
+		float: none;
+		width: 75%;
 		margin: 3em auto;
 	}
 
@@ -432,33 +393,6 @@ button {
 	#bodywork_aside {
 		margin: 0 auto;
 	}
-
-}
-
-
-@media only screen and (max-width: 1087px) {
-	#relax_aside {
-		width: 90%;
-	}
-
-	#escape_aside {
-		width: 90%;
-	}
-}
-
-@media only screen and (max-width: 1016px) {
-	#first_caption {
-		font-size: 4em;
-	}
-
-	#second_caption {
-		font-size: 6em;
-	}
-
-	#third_caption {
-		font-size: 3em;
-	}
-
 }
 
 
@@ -472,6 +406,25 @@ button {
 		font-size: 1.5em;
 	}
 
+	#first_caption {
+		font-size: 4em;
+		margin-top: 100px;
+		margin-bottom: 40px;
+	}
+
+	#second_caption {
+		font-size: 5em;
+		margin: 10px;
+	}
+
+	#third_caption {
+		font-size: 3em;
+	}
+
+	#fourth_caption {
+		font-size: 1.5em;
+	}
+
 	#philo_caption {
 		font-size: 1em;
 		margin-top: 50px;
@@ -479,11 +432,7 @@ button {
 
 	#philo_stmt {
 		font-size: 1.3em;
-
-	}
-	
-	#fourth_caption {
-		font-size: 1.5em;
+		margin: 20px;
 	}
 
 	#footer {
@@ -495,11 +444,21 @@ button {
 
 	#logocop {
 		margin: auto auto;
-		border: 2px solid red;
+		/*border: 2px solid red;*/
 	}
 
 	#footer h2 {
 		font-size: 2em;
+	}
+
+	#relax_aside{
+		width: auto;
+		min-width: 0px;
+	}
+
+	#escape_aside{
+		width: auto;
+		min-width: 0px;
 	}
 
 	#relaxleftcol{
@@ -511,7 +470,7 @@ button {
 		float:none;
 		width: 100%;
 		padding: 5em 3em 3em 3em;
-		
+		margin: 0 auto;
 	}
 
 	#relax_image {
@@ -523,6 +482,7 @@ button {
 		float:none;
 		width: 100%;
 		padding: 5em 3em 3em 3em;
+		margin: 0 auto;
 	}
 
 	#escaperightcol{
@@ -573,6 +533,18 @@ button {
 
 	#fourth_caption {
 		margin: 3em auto;
+	}
+
+	#massage_aside {
+		min-width: 100%; /*to keep the picture from being squeezed*/
+	}
+
+	#facials_aside {
+		min-width: 100%; /*to keep the picture from being squeezed*/
+	}
+
+	#bodywork_aside{
+		min-width: 100%; /*to keep the picture from being squeezed*/
 	}
 }
 
