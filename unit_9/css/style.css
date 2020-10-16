@@ -39,7 +39,7 @@ header {
 	float: left;
 	/*border: 2px solid red;*/
 	margin-top: 30px;
-	margin-left: 60px;
+	margin-left: 85px;
 }
 
 
@@ -123,10 +123,10 @@ main {
 }
 
 #philo_stmt {
-	font-size: 1.8em;
+	font-size: 2em;
 	/*border: 2px solid red;*/
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 40px;
 }
 
 #relax_aside{
@@ -192,14 +192,14 @@ main {
 	float:left;
 	width: 50%;
 	max-width: 500px; /*prevents over-stretching of column when under 1000px width*/
-	padding: 5em 3em 3em 3em;
-	/*border: 2px solid red;*/
-	line-height: 3em;
+	padding: 5em 1em 1em 3em;
+/*	border: 2px solid red;*/
+	line-height: 4em;
 }
 
 hr {
 	border: 2px solid #c0c0c0;
-	width: 40%;
+	width: 35%;
 	margin: 0 auto;
 }
 
@@ -207,9 +207,9 @@ hr {
 	float:left;
 	width: 50%;
 	max-width: 500px; /*prevents over-stretching of column when under 1000px width*/
-	padding: 5em 1em 3em 8em;
+	padding: 5em 1em 1em 3em;
 	/*border: 2px solid red;*/
-	line-height: 3em;
+	line-height: 4em;
 }
 
 #escaperightcol{
